@@ -163,22 +163,43 @@ img {
 
 .skills {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .skills-item {
   flex-basis: calc(100% / 4 - 10px);
-  padding: 25px 10px;
+  padding: 50px 25px;
   text-align: center;
   background-color: var(--bg-cl);
+  overflow: hidden;
 }
 
 .skill-icon {
-  width: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  opacity: 0.6;
+
+  transition: opacity ease 500 ms;
+}
+
+.skills-item:hover .skill-icon,
+.skills-item:focus .skill-icon {
+  opacity: 0.1;
 }
 
 .skill-title {
   margin: 0;
+
+  opacity: 0;
+
+  transition: opacity ease 500ms;
+}
+
+.skills-item:hover .skill-title,
+.skills-item:focus .skill-title {
+  opacity: 1;
 }
