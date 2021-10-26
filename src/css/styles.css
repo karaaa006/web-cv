@@ -203,3 +203,51 @@ img {
 .skills-item:focus .skill-title {
   opacity: 1;
 }
+
+.slide {
+  /* position: relative; */
+  background-color: var(--bg-cl);
+  text-align: center;
+}
+
+.slider-text-wrap {
+  padding: 10px;
+}
+
+.slide-title {
+  margin: 0 0 10px 0;
+
+  transition: opacity var(--cubic) 250ms;
+}
+
+.poster {
+  /* position: absolute; */
+}
+
+.stack {
+  margin: 0;
+
+  transition: opacity var(--cubic) 250ms;
+}
+
+.slider-img-wrap {
+  position: relative;
+}
+.link-icon-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+
+  transition: opacity var(--cubic) 250ms;
+}
+
+.slider-img-wrap:hover .link-icon-wrap {
+  opacity: 1;
+}
