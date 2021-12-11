@@ -1,0 +1,38 @@
+[
+    {
+        "name": "HTML5",
+        "img": "./images/logos/html.svg"
+    },
+    {
+        "name": "CSS3",
+        "img": "./images/logos/html.svg"
+    },
+    {
+        "name": "JavaScript",
+        "img": "./images/logos/html.svg"
+    },
+    {
+        "name": "Webpack",
+        "img": "./images/logos/html.svg"
+    },
+    {
+        "name": "REST API",
+        "img": "./images/logos/html.svg"
+    },
+    {
+        "name": "Git",
+        "img": "./images/logos/html.svg"
+    },
+    {
+        "name": "Figma",
+        "img": "./images/logos/html.svg"
+    },
+    {
+        "name": "Photoshop",
+        "img": "./images/logos/html.svg"
+    },
+    {
+        "name": "Illustrator",
+        "img": "./images/logos/html.svg"
+    }
+]
